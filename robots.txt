@@ -1,0 +1,32 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /login/
+Disallow: /signup/
+Disallow: /account/
+Disallow: /search/
+Allow: /public/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Crawl-delay: 10 seconds between requests
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://coflix.com/sitemap.xml
+
+# Block specific bots
+User-agent: BadBot
+Disallow: /
+
+User-agent: ScraperBot
+Disallow: /
+
+# Allow Google
+User-agent: Googlebot
+Allow: /
+
+# Allow Bing
+User-agent: Bingbot
+Allow: /
